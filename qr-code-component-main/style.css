@@ -1,0 +1,57 @@
+/* Family: [Outfit] */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Outfit:wght@400;700&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100;300;400;500;700&family=Tilt+Prism&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit;
+    font-size: 15px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+
+.qr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.qr-img{
+    width: 240px;
+    margin: 15px;
+    border-radius: 7px;
+}
+.text-container{
+    margin: 10px 25px;
+    text-align: center;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+}
+.content{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 35px;
+}
