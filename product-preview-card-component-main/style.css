@@ -1,0 +1,172 @@
+/* Family: [Montserrat]
+Family: [Fraunces] */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;400;500;700&family=Outfit:wght@400;700&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100;300;400;500;700&family=Tilt+Prism&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat;
+}
+.outer-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media(max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        width: 300px;
+        background-color: hsl(0, 0%, 100%);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .product-description{
+        margin: 20px 0px ;
+    }
+    .perfume-img-mobile{
+        width: 300px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .perfume-img-desktop{
+        display: none;
+    }
+    .product-name{
+        font-size: 10px;
+    }
+    .product-tagline{
+        font-size: 26px;
+        margin: 20px 0;
+    }
+    .product-about{
+        font-size: 12px;
+    }
+    .price-col{
+        width: 160px;
+    }
+    .product-price{
+        font-size: 27px;
+    }
+    .product-price-before{
+        font-size: 11px;
+    }
+}
+@media(min-width:601px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        background-color: hsl(0, 0%, 100%);
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .perfume-img-desktop{
+        width: 300px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .perfume-img-mobile{
+        display: none;
+    }
+    .product-name{
+        font-size: 12px;
+    }
+    .product-tagline{
+        font-size: 35px;
+        margin: 25px 0;
+    }
+    .product-about{
+        font-size: 14px;
+    }
+    .price-col{
+        width: 180px;
+    }
+    .product-price-before{
+        font-size: 12px;
+    }
+    .product-price{
+        font-size: 30px;
+    }
+    .cart-icon{
+        width: 12px;
+    }
+    .bttn-name{
+        font-family: Fraunces;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 8px;
+    }
+}
+
+.product-description{
+    padding: 0px 30px ;
+    
+}
+.product-name{
+    letter-spacing: 0.5em;
+    color :hsl(228, 12%, 48%);
+}
+.product-tagline{
+    font-family: Fraunces;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+}
+.product-about{
+    color :hsl(228, 12%, 48%);
+    line-height: 1.7;
+}
+.price-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.product-price{
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+}
+.product-price-before{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.add-to-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin: auto;
+    padding: 13px 72px;
+    
+    border-radius: 6px;
+    margin-top: 20px ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.add-to-cart:hover{
+    background-color: hsl(157, 39%, 19%);
+}
+.cart-icon{
+    width: 13px;
+}
+.bttn-name{
+    font-family: Fraunces;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 8px;
+}
