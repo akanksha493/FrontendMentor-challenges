@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site]([https://your-live-site-url.com](https://akanksha493.github.io/FrontendMentor-challenges/results-summary-component-main/))
+- Live Site URL: [Live Site](https://akanksha493.github.io/FrontendMentor-challenges/results-summary-component-main/)
 
 ## My process
 
