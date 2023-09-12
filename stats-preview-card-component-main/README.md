@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [source-code]()
-- Live Site URL: [live-preview]()
+- Solution URL: [source-code](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/stats-preview-card-component-main)
+- Live Site URL: [live-preview](https://akanksha493.github.io/FrontendMentor-challenges/stats-preview-card-component-main/)
 
 ## My process
 
