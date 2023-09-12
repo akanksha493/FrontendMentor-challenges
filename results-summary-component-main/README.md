@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://akanksha493.github.io/FrontendMentor-challenges/results-summary-component-main/)
 
 ## My process
 
