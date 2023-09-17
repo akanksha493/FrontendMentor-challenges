@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <!-- Rating state start -->
+    <div class="container" id="rating-state">
+      <div id="star-icon-container">
+        <img id="star-img" src="images/icon-star.svg" alt="">
+      </div>
+      <div class="heading" id="heading-container">
+        <h1>How did we do?</h1>
+      </div>
+      <div class="para-container">
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div id="ratings-container">
+        <div class="ratings" id="one" >
+          <span>1</span>
+        </div>
+        <div class="ratings" id="two">
+          <span>2</span>
+        </div>
+        <div class="ratings" id="three">
+          <span>3</span>
+        </div>
+        <div class="ratings" id="four">
+          <span>4</span>
+        </div>
+        <div class="ratings" id="five">
+          <span>5</span>
+        </div>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <!-- Rating state end -->
+    <!-- Thank you state start -->
+    <div class="outer-container">
+      <div class="container" id="thankyou-state">
+        <div id="img-container">
+          <img id="tq-img" src="images/illustration-thank-you.svg" alt="">
+        </div>
+        <div id="your-rating-container">
+          <p>You selected <span id="your-rating">0</span> out of 5</p>
+        </div>
+        <div class="heading" id="thankyou-container">
+          <h1>Thank you!</h1>
+        </div>
+        <div class="para-container" id="tq-para">
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Thank you state end -->
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/akanksha493" target="_blank">Akanksha</a>.
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
