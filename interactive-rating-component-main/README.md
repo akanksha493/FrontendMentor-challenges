@@ -34,8 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code]()
-- Live Site URL: [Live Preview]()
+- Live Site URL: [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/interactive-rating-component-main/)
 
 ## My process
 
