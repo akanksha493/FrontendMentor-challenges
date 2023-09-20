@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Preview]()
+- Live Site URL: [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/3-column-preview-card-component-main/)
 
 ## My process
 
