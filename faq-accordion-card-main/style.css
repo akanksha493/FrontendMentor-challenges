@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* text  */
+    --ques-main-text-color: hsl(238, 29%, 16%);
+    --hover-text-color: hsl(14, 88%, 65%);
+
+    --ques-color: hsl(237, 12%, 33%);
+    --ans-color: hsl(240, 6%, 50%);
+
+    /* gradient */
+    --top-violet: hsl(273, 75%, 66%) ;
+    --bottom-blue: hsl(240, 73%, 65%);
+
+    --divider-color: hsl(240, 5%, 91%);
+    --font : 'Kumbh Sans', sans-serif;
+
+    --padding-lr :1.5rem;
+    --padding-bottom: 3rem;
+
+    --padding-lr-desktop:5.625rem;
+    --padding-tb-desktop:5rem;
+}
+
+@media(max-width:1000px){
+    body{
+        font-size: 0.8rem;
+    }
+    #desktop-box-illo{
+        display: none;
+    }
+    #desktop-illo{
+        display: none;
+    }
+    #container{
+        /* width: 330px; */
+        width: max(330px, 90vw);
+        margin: 0 1.5rem;
+        margin-top: 9rem;
+    }
+    .illustration-container{
+        background-image: url("images/bg-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: top -6px center;
+        background-size: 240px;
+        position: relative;
+        height: 105px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #mobile-illo{
+        width: 240px;
+        position: absolute;
+        left: 50%;
+        margin-left: -120px;
+        bottom: 35%;
+        z-index: 10;
+    }
+    .content-container{
+        padding: 0px var(--padding-lr) var(--padding-bottom) var(--padding-lr);
+    }
+    .heading-container h1{
+        text-align: center;
+        margin-bottom: 0.8rem;
+    }
+    .ans-container{
+        font-size: 0.72rem;
+    }
+
+}
+@media(min-width:1001px){
+    body{
+        justify-content: center;
+        font-size: 0.85rem;
+    }
+    #mobile-illo{
+        display: none;
+    }
+    #container{
+        margin-top: 2rem;
+        margin-left: 6rem;
+        width: 920px;
+        display: flex;
+    }
+    .illustration-container{
+        width: 380px;
+        background-image: url("images/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-size:250%, 122%;
+        background-position: right 0rem bottom -9rem, right 0rem top var(--padding-tb-desktop);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .desktop-div{
+        position: relative;
+        width: 100%;
+        height: 350px;
+        background-image: url("images/illustration-woman-online-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: right 0rem;
+    }
+    #desktop-box-illo{
+        position: absolute;
+        right: 85%;
+        top: 50%;
+        margin-top: -2.6rem;
+    }
+    .content-container{
+        box-sizing: border-box;
+        width: 540px;
+        padding: var(--padding-tb-desktop) var(--padding-lr-desktop);
+    }
+    .heading-container h1{
+        margin-bottom: 1rem;
+    }
+    .ans-container{
+        font-size: 0.75rem;
+    }
+}
+
+body{
+    min-height: 100vh;
+    font-family: var(--font);
+    
+    background-image: linear-gradient(var(--top-violet),var(--bottom-blue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+#container{
+    background-color: white;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.322);
+    margin-bottom: 40px;
+}
+
+.heading-container h1{
+    font-size: 1.9rem;
+}
+.qna-wrapper{
+    border-bottom: 1px solid var(--divider-color);
+    padding: 1rem 0px;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--ques-color);
+}
+.arrow-container{
+    transition: all 0.1s;
+}
+.ques-container p{
+    cursor: pointer;
+}
+.ques-container p:hover{
+    color: var(--hover-text-color) !important;
+}
+.ans-container{
+    color: var(--ans-color);
+    display: none;
+    
+    line-height: 1.4;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
