@@ -70,7 +70,7 @@ These are the Solutions of frontend Challeges given in [FrontendMentor](https://
 
 4. Result Summary component
 
-![](./results-summary-component-main/screenshot.png)
+![](./results-summary-component-main/design/screenshot.png)
 
 - solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/results-summary-component-main)
 - Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/results-summary-component-main/)
