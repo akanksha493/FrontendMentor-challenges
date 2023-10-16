@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+    --padding-lr-mobile: 1.5rem;
+    --ff: Manrope;
+}
+
+@media(max-width:750px){
+    body{
+        padding: 5rem var(--padding-lr-mobile);
+    }
+    .wrapper{
+        overflow: hidden;
+    }
+    .image-container img{
+        /* height: 12.5rem; */
+        height: max(12.5rem,55vw);
+        width: 100%;
+        object-fit: cover;
+        object-position: top -15px right 0;
+    }
+    .content{
+        padding: 2.5rem 2rem 1.5rem 2rem;
+        line-height: 1.5;
+    }
+    .content h3{
+        font-size: 1.05rem;
+    }
+    .author{
+        padding: 1rem 2rem;
+    }
+    .share-container{
+        padding: 0rem 2rem;
+        position: absolute;
+        background-color: var(--Very-Dark-Grayish-Blue);
+        color: var(--Grayish-Blue);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+}
+@media(min-width:751px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        width: 730px;
+        /* overflow-x: hidden; */
+    }
+    .image-container {
+        width: 284px;
+    }
+    .image-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: left;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .description{
+        box-sizing: border-box;
+        width: 446px;
+        padding: 2.5rem 2.5rem 2rem 2.5rem;
+    }
+    .content h3{
+        font-size: 1.3rem;
+    }
+    .content p{
+        line-height: 1.6;
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    .share-container{
+        position: absolute;
+        background-color: var(--Very-Dark-Grayish-Blue);
+        color: var(--Grayish-Blue);
+        top: -75px;
+        left: 226px;
+        display: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.443);
+    }
+    .flex-container{
+        padding: 1.1rem 2.5rem;
+    }
+    .down-arrow{
+        position: absolute;
+        top: -1.2rem;
+        left: 334px;
+        width: 0;  
+        height: 0;  
+        border-left: 15px solid transparent; 
+        border-right: 15px solid transparent; 
+        border-top: 15px solid var(--Very-Dark-Grayish-Blue); 
+        display: none;
+    }
+    
+}
+
+body{
+    font-family: var(--ff);
+    background-color: var(--Light-Grayish-Blue);
+}
+.wrapper{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.107);
+}
+.description{
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.content p{
+    font-size: 0.83rem;
+}
+.author{
+    display: flex;
+    position: relative;
+}
+.profile{
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    width: 100%;
+    border-radius: 100%;
+}
+.name-share{
+    margin-left: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.name p{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.date p{
+    font-size: 0.85rem;
+    color: var(--Grayish-Blue);
+}
+.share{
+    background-color: var(--Light-Grayish-Blue);
+    aspect-ratio: 1/1;
+    /* padding: 0.3rem; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+.share #clicked{
+    display: none;
+}
+.share:hover{
+    background-color: var(--Desaturated-Dark-Blue);
+}
+.share:hover #clicked{
+    display: block;
+}
+.share:hover #not-clicked{
+    display: none;
+}
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.share-container p{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+
+}
+.share-container img{
+    width: 1.31rem;
+    aspect-ratio: 1/1;
+    margin-left: 1rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

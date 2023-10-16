@@ -3,6 +3,15 @@
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
 
+12. Article Preview component
+
+![](./article-preview-component-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/article-preview-component-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/article-preview-component-master/)
+
+<br>
+
 11. Scocial Proof section
 
 ![](./social-proof-section-master/screenshot.png)
