@@ -2,6 +2,14 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+13. Four Card Feature Section
+
+![](./four-card-feature-section-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/four-card-feature-section-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/four-card-feature-section-master/)
+
+<br>
 
 12. Article Preview component
 

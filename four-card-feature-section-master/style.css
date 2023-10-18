@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* font colors and bg color */
+    --dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --light-gray: hsl(0, 0%, 98%);
+
+    --ff:Poppins;
+
+}
+@media(max-width:1200px){
+    body{
+        padding: 0rem 2rem;
+    }
+    .headings{
+        padding:5.31rem 0.6rem 5rem 0.6rem;
+    }
+    .headings h1{
+        /* font-size: 1.6em; */
+        font-size: clamp(1.6em, 5vw, 2.3em);
+    }
+    .headings p{
+        font-size: 0.99em;
+    }
+    .card{
+        margin-bottom: 1.56rem;
+    }
+}
+@media(min-width:1201px){
+    main{
+        /* height: 90vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headings{
+        padding:5.38rem 0rem 4rem 0rem;
+        width: 515px;
+    }
+    .headings h1{
+        padding: 0rem 1.1rem;
+        font-size: 2.3rem;
+        line-height: 1.4;
+    }
+    .headings p{
+        font-size: 1.03em;
+        line-height: 1.6;
+    }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(3,350px);
+        column-gap:  1.75rem;
+    }
+    .card-grp1,
+    .card-grp3{
+        margin-top: 8.75rem;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+}
+body{
+    font-family: var(--ff);
+    font-size: 15px;  
+    color: var(--dark-blue);
+    background-color: var(--light-gray);
+}
+.headings{
+    text-align: center;
+}
+.headings h1{
+    font-weight: 200;
+}
+.headings h1 span{
+    font-weight: 600;
+}
+.headings p{
+    padding-top: 1.2rem;
+    color: var(--grayish-blue);
+    
+}
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.16);
+    
+    border-radius: 5px;
+    padding:1.75rem;
+}
+#supervisor{
+    border-top: 4px solid var(--Cyan);
+}
+#team{
+    border-top: 4px solid var(--Red);
+}
+#karma{
+    border-top: 4px solid var(--Orange);
+}
+#calculator{
+    border-top: 4px solid var(--Blue);
+}
+.card h2{
+    font-size: 1.3em;
+}
+.card p{
+    color: var(--grayish-blue);
+    font-size: 0.88em;
+    line-height: 1.8;
+}
+.img{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
