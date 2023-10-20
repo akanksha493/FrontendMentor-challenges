@@ -2,6 +2,15 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+14. Base Apparel Coming Soon
+
+![](./base-apparel-coming-soon-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/base-apparel-coming-soon-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/base-apparel-coming-soon-master/)
+
+<br>
+
 13. Four Card Feature Section
 
 ![](./four-card-feature-section-master/screenshot.png)
