@@ -2,6 +2,15 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+15. Intro with Sign Up form
+
+![](./intro-component-with-signup-form-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/intro-component-with-signup-form-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/intro-component-with-signup-form-master/)
+
+<br>
+
 14. Base Apparel Coming Soon
 
 ![](./base-apparel-coming-soon-master/screenshot.png)
