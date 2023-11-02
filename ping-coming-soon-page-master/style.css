@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+
+    --ff: 'Libre Franklin', sans-serif;
+}
+@media(max-width:640px){
+    .wrapper{
+        margin: 0rem 1.75rem;
+    }
+    .logo-container{
+        padding-top: 44px;
+    }
+    .logo-container img{
+        width: 54px;
+    }
+    .heading{
+        font-size: 0.55em;
+        margin-top: 32px;
+    }
+    
+    .heading p{
+        margin-top: 1rem;
+    }
+    form{
+        padding: 0rem 1.125rem;
+        margin-top: 2rem;
+    }
+    input,
+    #notify-bttn{
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 0.6em;
+    }
+    input{
+        padding:0.75rem 1.8rem; 
+    }
+    .error-mssg{
+        font-size: 0.5em;
+        padding-bottom: 0.7rem;
+        padding-top: 0.3rem;
+    }
+    #notify-bttn{
+        margin-top: 0.7rem;
+        padding:0.75rem 0rem;
+    }
+    .img-container{
+        margin-top: 4.5rem;
+    }
+    .social{
+        margin-top: 117px;
+    }
+    .copyright{
+        font-size: 0.5em;
+    }
+}
+@media(min-width:641px){
+    .wrapper{
+        max-width: 642px;
+        margin: auto;
+        margin-top: 5.25rem;
+    }
+    .heading{
+        margin-top: 2.75rem;
+    }
+    .heading h1{
+        font-size: 2.4em;
+    }
+    .heading p{
+        margin-top: 1.2rem;
+    }
+    form{
+        display: grid;
+        column-gap: 1rem;
+        grid-template-columns: auto max-content;
+        margin-top: 2.5rem;
+    }
+    .error-mssg{
+        grid-row-start: 2;
+        text-align: left;
+        font-size: 0.6em;
+        padding-top: 0.5rem;
+    }
+    input,
+    #notify-bttn{
+        border-radius: 40px;
+        font-size: 0.8em;
+    }
+    input,
+    .error-mssg{
+        padding-left: 2rem;
+    }
+    #notify-bttn{
+        padding:1.25rem 4rem;
+    }
+    .img-container{
+        margin-top: 5.25rem;
+    }
+    .social{
+        margin-top: 4rem;
+    }
+    .copyright{
+        font-size: 0.6em;
+    }
+}
+body{
+    font-family: var(--ff);
+    font-size: 1.25rem;
+}
+main{
+    text-align: center;
+}
+.wrapper{
+    margin-bottom: 1rem;
+}
+.heading span{
+    color: var(--Gray);
+    font-weight: 300;
+}
+
+input{
+    border: 2px solid hsla(0, 0%, 59%, 0.342);
+    outline: none;
+}
+input::placeholder{
+    color: var(--Gray);
+}
+#notify-bttn{
+    border: none;
+    background-color: var(--Blue);
+    color: white;
+    font-family: var(--ff);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+#notify-bttn:hover{
+    background-color: hsla(223, 87%, 63%, 0.71);
+}
+.error-mssg{
+    color: var(--Light-Red);
+    display: none;
+}
+.img-container img{
+    width: 100%;
+}
+.social{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+.logo{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: center;
+    cursor: pointer;
+    border: 1px solid var(--Pale-Blue);
+    transition: all 0.2s;
+}
+#facebook{
+    background-size: 0.7rem;
+    background-image: url("images/facebook.svg"); 
+}
+#twitter{
+    background-image: url("images/twitter.svg");
+}
+#instagram{
+    background-image: url("images/instagram.svg");
+}
+.logo:hover{
+    background-color: var(--Blue);
+}
+#facebook:hover{
+    background-image: url("images/facebook-hover.svg");
+}
+#twitter:hover{
+    background-image: url("images/twitter-hover.svg");
+}
+#instagram:hover{
+    background-image: url("images/instagram-hover.svg");
+}
+.copyright{
+    color: var(--Gray);
+    margin-top: 1.6rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

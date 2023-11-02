@@ -2,6 +2,15 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+16. Ping Coming soon page
+
+![](./ping-coming-soon-page-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/ping-coming-soon-page-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/ping-coming-soon-page-master/)
+
+<br>
+
 15. Intro with Sign Up form
 
 ![](./intro-component-with-signup-form-master/screenshot.png)
