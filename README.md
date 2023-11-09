@@ -2,6 +2,15 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+17. single price grid component
+
+![](./ping-coming-soon-page-master/screenshot.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/single-price-grid-component-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/single-price-grid-component-master/)
+
+<br>
+
 16. Ping Coming soon page
 
 ![](./ping-coming-soon-page-master/screenshot.png)
