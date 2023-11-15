@@ -2,6 +2,15 @@
 
 These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
 
+18. Huddle Landing Page
+
+![](./huddle-landing-page-with-single-introductory-section-master/screenshot-desktop.png)
+
+- solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/huddle-landing-page-with-single-introductory-section-master/)
+
+<br>
+
 17. single price grid component
 
 ![](./single-price-grid-component-master/screenshot-desktop.png)
