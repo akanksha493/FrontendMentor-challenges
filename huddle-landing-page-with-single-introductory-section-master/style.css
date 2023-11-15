@@ -24,8 +24,8 @@
         margin-top: 2rem;
     }
     .middle-section{
-        /* margin-top: 3.3rem; */
-        margin-top: calc(4rem - 3vw);
+        margin-top: 3.3rem;
+        /* margin-top: calc(4rem - 3vw); */
     }
     .heading{
         font-size: 0.7em;
@@ -73,16 +73,16 @@
         /* from 2.3 to 5 */
         padding:0rem clamp(2.3rem, 6vw,5rem);
     }
-    .middle-section{
-        display: grid;
-        grid-template-columns:min(60%,730px) 40%;
-
-        margin-top: calc(3.3rem - 3.5vw);
-    }
     .logo{
         width: min(220px, 25%);
         /* from 2 to 5 */
-        margin-top: clamp(2rem, 6vw,5rem);
+        margin-top: clamp(2rem, 4vw,5rem);
+    }
+    .middle-section{
+        display: grid;
+        grid-template-columns:min(60%,730px) 40%;
+        /* from 3.3 to 5 */
+        margin-top: clamp(3.3rem, 6vw, 5rem);
     }
     .content{
         box-sizing: border-box;
@@ -123,6 +123,7 @@
     body{
         background-image: url("images/bg-desktop.svg");
         background-repeat: no-repeat;
+        background-size: cover;
         padding: 0rem 5rem;
     }
     .logo{
@@ -132,6 +133,7 @@
     .middle-section{
         display: grid;
         grid-template-columns: 730px auto;
+        margin-top: 5rem;
     }
     .content{
         box-sizing: border-box;
