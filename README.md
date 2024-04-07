@@ -1,13 +1,18 @@
 # FrontendMentor-challenges
 
-These are the Solutions of frontend Challeges given in [FrontendMentor](https://www.frontendmentor.io/)
+These are the Solutions of frontend Challeges provided by [FrontendMentor](https://www.frontendmentor.io/)
 
 19. Advice Generator App
 
     A minimalist Advice generator web app built using HTML, CSS, Advice Slip API and Javascript accessible to any device.
 
-    ![](./advice-generator-app-main/screenshot.png)
-    - solution URL: [Solution](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/advice-generator-app-main)
+
+    |Desktop View|Mobile View|
+    |:---:|:---:|
+    | <img src="./advice-generator-app-main/screenshot.png" width=100%></img> | <img src="./advice-generator-app-main/screenshot-mobile.png" width=35%></img>|
+
+
+    - solution URL: [Source Code](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/advice-generator-app-main)
     - Live URl : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/advice-generator-app-main/)
 
 
