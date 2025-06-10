@@ -8,7 +8,7 @@ These are the Solutions to frontend Challeges provided by [FrontendMentor](https
 
     ![](./testimonials-grid-section-main/screenshot.png)
     - solution URL: [Source Code](https://github.com/akanksha493/FrontendMentor-challenges/tree/main/testimonials-grid-section-main)
-    - Live URL : [Live Preview]()
+    - Live URL : [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/testimonials-grid-section-main/)
 
 19. Advice Generator App
 
