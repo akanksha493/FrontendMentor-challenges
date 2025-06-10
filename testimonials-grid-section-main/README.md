@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Preview](https://your-live-site-url.com)
+- Live Site URL: [Live Preview](https://akanksha493.github.io/FrontendMentor-challenges/testimonials-grid-section-main/)
 
 ## My process
 
