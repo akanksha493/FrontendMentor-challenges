@@ -2,6 +2,14 @@
 
 These are the Solutions to frontend Challeges provided by [FrontendMentor](https://www.frontendmentor.io/)
 
+20. Testimonial Grid Section
+
+    
+
+    ![](./testimonials-grid-section-main/screenshot.png)
+    - solution URL: [Source Code]()
+    - Live URL : [Live Preview]()
+
 19. Advice Generator App
 
     A minimalist Advice generator web app built using HTML, CSS, Advice Slip API and Javascript accessible to any device.

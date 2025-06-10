@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --Purple-50: hsl(260, 100%, 95%);
+    --Purple-300: hsl(264, 82%, 80%);
+    --Purple-500: hsl(263, 55%, 52%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-100: hsl(214, 17%, 92%);
+    --Grey-200: hsl(0, 0%, 81%);
+    --Grey-400: hsl(224, 10%, 45%);
+    --Grey-500: hsl(217, 19%, 35%);
+    --Dark-blue: hsl(219, 29%, 14%);
+    --Black: hsl(0, 0%, 7%);
+
+    --font-barlow: "Barlow Semi Condensed";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-barlow);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    margin: 2rem 1rem;
+}
+
+.card{
+    background-color: black;
+    color: var(--White);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.402);
+    margin: 1.5rem 0rem;
+}
+.author{
+    display: flex;
+    gap: 1rem;
+}
+.author-img{
+    border-radius: 50%;
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border: 2px solid var(--White);
+}
+.author-name{
+    font-size: 1rem
+}
+.author-designation{
+    font-size: 13px;
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 0rem;
+}
+
+#index0{
+    background-color: var(--Purple-500);
+    color: var(--Grey-100);
+}
+#index1{
+    background-color: var(--Grey-500);
+    color: var(--Grey-100);
+}
+#index2{
+    background-color: white;
+    color: var(--Black);
+}
+#index3{
+    background-color: var(--Dark-blue);
+    color: var(--Grey-100);
+}
+#index4{
+    background-color: white;
+    color: var(--Dark-blue);
+}
+
+@media(min-width: 800px){
+    body{
+        height: 100vh;
+    }
+    main{
+        max-width: 1120px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2rem 2.5rem;
+    }
+    .card{
+        margin: 0rem;
+    }
+    #index0{
+        grid-column: 1 / 3;
+    }
+    #index3{
+        grid-column: 2 / 4;
+    }
+    #index4{
+        grid-row: 1 / 3;
+        grid-column: 4 / span 1;
+    }
+}
